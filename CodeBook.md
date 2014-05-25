@@ -75,33 +75,13 @@ The data set contained in the file tidyData.csv contains the following variables
 * "tbodygyrojerkmag.std": standard deviation of the magnitude of the angular jerk 
 
 * The remaining variables correspond to the previous ones, to which has been applied a Fast Fourier Transform:
-
-"fbodyacc.mean.x"
-"fbodyacc.mean.y"
-"fbodyacc.mean.z"          
-"fbodyacc.std.x"
-"fbodyacc.std.y"
-"fbodyacc.std.z"           
-"fbodyaccjerk.mean.x"
-"fbodyaccjerk.mean.y"
-"fbodyaccjerk.mean.z"      
-"fbodyaccjerk.std.x"
-"fbodyaccjerk.std.y"
-"fbodyaccjerk.std.z"       
-"fbodygyro.mean.x"
-"fbodygyro.mean.y"
-"fbodygyro.mean.z"         
-"fbodygyro.std.x"
-"fbodygyro.std.y"
-"fbodygyro.std.z"          
-"fbodyaccmag.mean"
-"fbodyaccmag.std"
-"fbodybodyaccjerkmag.mean" 
-"fbodybodyaccjerkmag.std"
-"fbodybodygyromag.mean"
-"fbodybodygyromag.std"     
-"fbodybodygyrojerkmag.mean"
-"fbodybodygyrojerkmag.std" 
+"fbodyacc.mean.x" "fbodyacc.mean.y" "fbodyacc.mean.z" "fbodyacc.std.x"
+"fbodyacc.std.y" "fbodyacc.std.z" "fbodyaccjerk.mean.x" "fbodyaccjerk.mean.y"
+"fbodyaccjerk.mean.z" "fbodyaccjerk.std.x" "fbodyaccjerk.std.y" "fbodyaccjerk.std.z" 
+"fbodygyro.mean.x" "fbodygyro.mean.y" "fbodygyro.mean.z" "fbodygyro.std.x"
+"fbodygyro.std.y" "fbodygyro.std.z" "fbodyaccmag.mean" "fbodyaccmag.std"
+"fbodybodyaccjerkmag.mean" "fbodybodyaccjerkmag.std" "fbodybodygyromag.mean"
+"fbodybodygyromag.std" "fbodybodygyrojerkmag.mean" "fbodybodygyrojerkmag.std" 
 
 Notes: 
 ======

@@ -47,24 +47,17 @@ The data set contained in the file tidyData.csv contains the following variables
 	standard deviation of the body jerk in the 3 directions x,y,z
 
 
-* "tbodygyro.mean.x" |
-"tbodygyro.mean.y" | mean of the body angular momentum in the 3 directions x,y,z
-"tbodygyro.mean.z" |
+* "tbodygyro.mean.x" "tbodygyro.mean.y" "tbodygyro.mean.z" 
+	mean of the body angular momentum in the 3 directions x,y,z
 
+* "tbodygyro.std.x" "tbodygyro.std.y" "tbodygyro.std.z" 
+	standard deviation of the body angular momentum in the 3 directions x,y,z
 
-* "tbodygyro.std.x" |
-"tbodygyro.std.y" | standard deviation of the body angular momentum in the 3 directions x,y,z
-"tbodygyro.std.z" |
+* "tbodygyrojerk.mean.x" "tbodygyrojerk.mean.y" "tbodygyrojerk.mean.z" 
+	mean of the body angular jerk in the 3 directions x,y,z
 
-
-* "tbodygyrojerk.mean.x" |
-"tbodygyrojerk.mean.y" | mean of the body angular jerk in the 3 directions x,y,z
-"tbodygyrojerk.mean.z" |
-
-
-* "tbodygyrojerk.std.x" |
-"tbodygyrojerk.std.y" | standard deviation of the body angular jerk in the 3 directions x,y,z
-"tbodygyrojerk.std.z" |
+* "tbodygyrojerk.std.x" "tbodygyrojerk.std.y" "tbodygyrojerk.std.z"
+	standard deviation of the body angular jerk in the 3 directions x,y,z
 
 * "tbodyaccmag.mean": mean of the magnitude of the body acceleration
 * "tbodyaccmag.std": standard deviation of the magnitude of the body acceleration
