@@ -22,75 +22,59 @@ To create the averaged data file we aggregated the data by the subject code and 
 ## Description of the variables
 
 The data set contained in the file tidyData.csv contains the following variables:
-"subject.code":   an integer [1:30] specifiying which of the test subjects 
+* "subject.code":   an integer [1:30] specifiying which of the test subjects 
                   performs the action giving rise to the observations
-"activity.name":  name of the activity that the subject is performing (Factor w/ 6 levels)
+* "activity.name":  name of the activity that the subject is performing (Factor w/ 6 levels)
 
-"tbodyacc.mean.x" |
-"tbodyacc.mean.y" | mean of the body acceleration in the 3 directions x,y,z 
-"tbodyacc.mean.z" |
-
-
-"tbodyacc.std.x" |
-"tbodyacc.std.y" | standard deviations of the body acceleration in the 3 directions x,y,z
-"tbodyacc.std.z" |
+* "tbodyacc.mean.x" "tbodyacc.mean.y" "tbodyacc.mean.z"
+	mean of the body acceleration in the 3 directions x,y,z
 
 
-"tgravityacc.mean.x" |
-"tgravityacc.mean.y" | mean of the gravity acceleration in the 3 directions x,y,z 
-"tgravityacc.mean.z" |
+* "tbodyacc.std.x" "tbodyacc.std.y" "tbodyacc.std.z"
+	standard deviations of the body acceleration in the 3 directions x,y,z
 
 
-"tgravityacc.std.x" |
-"tgravityacc.std.y" | standard deviations of the gravity acceleration in the 3 directions x,y,z
-"tgravityacc.std.z" |
+* "tgravityacc.mean.x" "tgravityacc.mean.y" "tgravityacc.mean.z"
+	mean of the gravity acceleration in the 3 directions x,y,z
+
+* "tgravityacc.std.x" "tgravityacc.std.y" "tgravityacc.std.z" 
+	standard deviations of the gravity acceleration in the 3 directions x,y,z
+
+* "tbodyaccjerk.mean.x" "tbodyaccjerk.mean.y" "tbodyaccjerk.mean.z"
+	mean of the body jerk in the 3 directions x,y,z
+
+* "tbodyaccjerk.std.x" "tbodyaccjerk.std.y" "tbodyaccjerk.std.z"
+	standard deviation of the body jerk in the 3 directions x,y,z
 
 
-"tbodyaccjerk.mean.x" |
-"tbodyaccjerk.mean.y" | mean of the body jerk in the 3 directions x,y,z
-"tbodyaccjerk.mean.z" |
+* "tbodygyro.mean.x" "tbodygyro.mean.y" "tbodygyro.mean.z" 
+	mean of the body angular momentum in the 3 directions x,y,z
 
+* "tbodygyro.std.x" "tbodygyro.std.y" "tbodygyro.std.z" 
+	standard deviation of the body angular momentum in the 3 directions x,y,z
 
-"tbodyaccjerk.std.x" |
-"tbodyaccjerk.std.y" | standard deviation of the body jerk in the 3 directions x,y,z
-"tbodyaccjerk.std.z" |
+* "tbodygyrojerk.mean.x" "tbodygyrojerk.mean.y" "tbodygyrojerk.mean.z" 
+	mean of the body angular jerk in the 3 directions x,y,z
 
+* "tbodygyrojerk.std.x" "tbodygyrojerk.std.y" "tbodygyrojerk.std.z"
+	standard deviation of the body angular jerk in the 3 directions x,y,z
 
-"tbodygyro.mean.x" |
-"tbodygyro.mean.y" | mean of the body angular momentum in the 3 directions x,y,z
-"tbodygyro.mean.z" |
+* "tbodyaccmag.mean": mean of the magnitude of the body acceleration
+* "tbodyaccmag.std": standard deviation of the magnitude of the body acceleration
 
+* "tgravityaccmag.mean": mean of the magnitude of the gravity acceleration
+* "tgravityaccmag.std": standard deviation of the magnitude of the gravity acceleration
 
-"tbodygyro.std.x" |
-"tbodygyro.std.y" | standard deviation of the body angular momentum in the 3 directions x,y,z
-"tbodygyro.std.z" |
+* "tbodyaccjerkmag.mean": mean of the magnitude of the body jerk
+* "tbodyaccjerkmag.std": standard deviation of the magnitude of the body jerk
 
+* "tbodygyromag.mean": mean of the magnitude of the angular momentum
+* "tbodygyromag.std": standard deviation of the magnitude of the angular momentum
 
-"tbodygyrojerk.mean.x" |
-"tbodygyrojerk.mean.y" | mean of the body angular jerk in the 3 directions x,y,z
-"tbodygyrojerk.mean.z" |
+* "tbodygyrojerkmag.mean": mean of the magnitude of the angular jerk
+* "tbodygyrojerkmag.std": standard deviation of the magnitude of the angular jerk 
 
-
-"tbodygyrojerk.std.x" |
-"tbodygyrojerk.std.y" | standard deviation of the body angular jerk in the 3 directions x,y,z
-"tbodygyrojerk.std.z" |
-
-"tbodyaccmag.mean": mean of the magnitude of the body acceleration
-"tbodyaccmag.std": standard deviation of the magnitude of the body acceleration
-
-"tgravityaccmag.mean": mean of the magnitude of the gravity acceleration
-"tgravityaccmag.std": standard deviation of the magnitude of the gravity acceleration
-
-"tbodyaccjerkmag.mean": mean of the magnitude of the body jerk
-"tbodyaccjerkmag.std": standard deviation of the magnitude of the body jerk
-
-"tbodygyromag.mean": mean of the magnitude of the angular momentum
-"tbodygyromag.std": standard deviation of the magnitude of the angular momentum
-
-"tbodygyrojerkmag.mean": mean of the magnitude of the angular jerk
-"tbodygyrojerkmag.std": standard deviation of the magnitude of the angular jerk 
-
-The remaining variables correspond to the previous ones, to which has been applied a Fast Fourier Transform:
+* The remaining variables correspond to the previous ones, to which has been applied a Fast Fourier Transform:
 
 "fbodyacc.mean.x"
 "fbodyacc.mean.y"
